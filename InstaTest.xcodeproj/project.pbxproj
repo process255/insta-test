@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148897D817A8C34D00A6112B /* Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 148897D717A8C34D00A6112B /* Instagram.m */; };
+		148897DB17A8C68D00A6112B /* InstagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 148897DA17A8C68D00A6112B /* InstagramCell.m */; };
+		148897EE17A8CD4000A6112B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148897ED17A8CD4000A6112B /* SystemConfiguration.framework */; };
+		148897F017A8CD9700A6112B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148897EF17A8CD9700A6112B /* MobileCoreServices.framework */; };
+		149EB4F617A8BD2B008FBE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F517A8BD2B008FBE5C /* UIKit.framework */; };
+		149EB4F817A8BD2B008FBE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F717A8BD2B008FBE5C /* Foundation.framework */; };
+		149EB4FA17A8BD2B008FBE5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F917A8BD2B008FBE5C /* CoreGraphics.framework */; };
+		149EB50017A8BD2B008FBE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149EB4FE17A8BD2B008FBE5C /* InfoPlist.strings */; };
+		149EB50217A8BD2B008FBE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB50117A8BD2B008FBE5C /* main.m */; };
+		149EB50617A8BD2B008FBE5C /* InstaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB50517A8BD2B008FBE5C /* InstaAppDelegate.m */; };
+		149EB50817A8BD2B008FBE5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50717A8BD2B008FBE5C /* Default.png */; };
+		149EB50A17A8BD2B008FBE5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50917A8BD2B008FBE5C /* Default@2x.png */; };
+		149EB50C17A8BD2B008FBE5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50B17A8BD2B008FBE5C /* Default-568h@2x.png */; };
+		149EB50F17A8BD2B008FBE5C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */; };
+		149EB51217A8BD2B008FBE5C /* InstaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */; };
+		149EB51517A8BD2B008FBE5C /* InstaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */; };
+		149EB51D17A8BD2C008FBE5C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */; };
+		149EB51E17A8BD2C008FBE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F517A8BD2B008FBE5C /* UIKit.framework */; };
+		149EB51F17A8BD2C008FBE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F717A8BD2B008FBE5C /* Foundation.framework */; };
+		149EB52717A8BD2C008FBE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149EB52517A8BD2C008FBE5C /* InfoPlist.strings */; };
+		149EB52A17A8BD2C008FBE5C /* InstaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB52917A8BD2C008FBE5C /* InstaTestTests.m */; };
+		59D7D5A945EB4DDAA3067DC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CC57ACB07E45B8ADC6F8D8 /* libPods.a */; };
+		E3AF0745D10A4508B557F8E6 /* libPods-InstaTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		149EB52017A8BD2C008FBE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149EB4EA17A8BD2B008FBE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149EB4F117A8BD2B008FBE5C;
+			remoteInfo = InstaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CC57ACB07E45B8ADC6F8D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		148897D617A8C34D00A6112B /* Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instagram.h; sourceTree = "<group>"; };
+		148897D717A8C34D00A6112B /* Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instagram.m; sourceTree = "<group>"; };
+		148897D917A8C68D00A6112B /* InstagramCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCell.h; sourceTree = "<group>"; };
+		148897DA17A8C68D00A6112B /* InstagramCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCell.m; sourceTree = "<group>"; };
+		148897ED17A8CD4000A6112B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		148897EF17A8CD9700A6112B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		149EB4F217A8BD2B008FBE5C /* InstaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EB4F517A8BD2B008FBE5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		149EB4F717A8BD2B008FBE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		149EB4F917A8BD2B008FBE5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		149EB4FD17A8BD2B008FBE5C /* InstaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaTest-Info.plist"; sourceTree = "<group>"; };
+		149EB4FF17A8BD2B008FBE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149EB50117A8BD2B008FBE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		149EB50317A8BD2B008FBE5C /* InstaTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaTest-Prefix.pch"; sourceTree = "<group>"; };
+		149EB50417A8BD2B008FBE5C /* InstaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaAppDelegate.h; sourceTree = "<group>"; };
+		149EB50517A8BD2B008FBE5C /* InstaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaAppDelegate.m; sourceTree = "<group>"; };
+		149EB50717A8BD2B008FBE5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		149EB50917A8BD2B008FBE5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		149EB50B17A8BD2B008FBE5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		149EB50E17A8BD2B008FBE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		149EB51017A8BD2B008FBE5C /* InstaTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaTableViewController.h; sourceTree = "<group>"; };
+		149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaTableViewController.m; sourceTree = "<group>"; };
+		149EB51317A8BD2B008FBE5C /* InstaDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaDetailViewController.h; sourceTree = "<group>"; };
+		149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaDetailViewController.m; sourceTree = "<group>"; };
+		149EB51B17A8BD2C008FBE5C /* InstaTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		149EB52417A8BD2C008FBE5C /* InstaTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaTestTests-Info.plist"; sourceTree = "<group>"; };
+		149EB52617A8BD2C008FBE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149EB52817A8BD2C008FBE5C /* InstaTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaTestTests.h; sourceTree = "<group>"; };
+		149EB52917A8BD2C008FBE5C /* InstaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaTestTests.m; sourceTree = "<group>"; };
+		554F9A0D7A644E0B8C0CA46A /* Pods/Pods-InstaTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-InstaTestTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9C20F1472B496889BC9D19 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149EB4EF17A8BD2B008FBE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148897F017A8CD9700A6112B /* MobileCoreServices.framework in Frameworks */,
+				148897EE17A8CD4000A6112B /* SystemConfiguration.framework in Frameworks */,
+				149EB4F617A8BD2B008FBE5C /* UIKit.framework in Frameworks */,
+				149EB4F817A8BD2B008FBE5C /* Foundation.framework in Frameworks */,
+				149EB4FA17A8BD2B008FBE5C /* CoreGraphics.framework in Frameworks */,
+				59D7D5A945EB4DDAA3067DC0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EB51717A8BD2C008FBE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EB51D17A8BD2C008FBE5C /* SenTestingKit.framework in Frameworks */,
+				149EB51E17A8BD2C008FBE5C /* UIKit.framework in Frameworks */,
+				149EB51F17A8BD2C008FBE5C /* Foundation.framework in Frameworks */,
+				E3AF0745D10A4508B557F8E6 /* libPods-InstaTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149EB4E917A8BD2B008FBE5C = {
+			isa = PBXGroup;
+			children = (
+				148897EF17A8CD9700A6112B /* MobileCoreServices.framework */,
+				148897ED17A8CD4000A6112B /* SystemConfiguration.framework */,
+				149EB4FB17A8BD2B008FBE5C /* InstaTest */,
+				149EB52217A8BD2C008FBE5C /* InstaTestTests */,
+				149EB4F417A8BD2B008FBE5C /* Frameworks */,
+				149EB4F317A8BD2B008FBE5C /* Products */,
+				FD9C20F1472B496889BC9D19 /* Pods/Pods.xcconfig */,
+				554F9A0D7A644E0B8C0CA46A /* Pods/Pods-InstaTestTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		149EB4F317A8BD2B008FBE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149EB4F217A8BD2B008FBE5C /* InstaTest.app */,
+				149EB51B17A8BD2C008FBE5C /* InstaTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149EB4F417A8BD2B008FBE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149EB4F517A8BD2B008FBE5C /* UIKit.framework */,
+				149EB4F717A8BD2B008FBE5C /* Foundation.framework */,
+				149EB4F917A8BD2B008FBE5C /* CoreGraphics.framework */,
+				149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */,
+				08CC57ACB07E45B8ADC6F8D8 /* libPods.a */,
+				BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		149EB4FB17A8BD2B008FBE5C /* InstaTest */ = {
+			isa = PBXGroup;
+			children = (
+				149EB50417A8BD2B008FBE5C /* InstaAppDelegate.h */,
+				149EB50517A8BD2B008FBE5C /* InstaAppDelegate.m */,
+				149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */,
+				149EB51017A8BD2B008FBE5C /* InstaTableViewController.h */,
+				149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */,
+				149EB51317A8BD2B008FBE5C /* InstaDetailViewController.h */,
+				149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */,
+				149EB4FC17A8BD2B008FBE5C /* Supporting Files */,
+				148897D617A8C34D00A6112B /* Instagram.h */,
+				148897D717A8C34D00A6112B /* Instagram.m */,
+				148897D917A8C68D00A6112B /* InstagramCell.h */,
+				148897DA17A8C68D00A6112B /* InstagramCell.m */,
+			);
+			path = InstaTest;
+			sourceTree = "<group>";
+		};
+		149EB4FC17A8BD2B008FBE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149EB4FD17A8BD2B008FBE5C /* InstaTest-Info.plist */,
+				149EB4FE17A8BD2B008FBE5C /* InfoPlist.strings */,
+				149EB50117A8BD2B008FBE5C /* main.m */,
+				149EB50317A8BD2B008FBE5C /* InstaTest-Prefix.pch */,
+				149EB50717A8BD2B008FBE5C /* Default.png */,
+				149EB50917A8BD2B008FBE5C /* Default@2x.png */,
+				149EB50B17A8BD2B008FBE5C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149EB52217A8BD2C008FBE5C /* InstaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				149EB52817A8BD2C008FBE5C /* InstaTestTests.h */,
+				149EB52917A8BD2C008FBE5C /* InstaTestTests.m */,
+				149EB52317A8BD2C008FBE5C /* Supporting Files */,
+			);
+			path = InstaTestTests;
+			sourceTree = "<group>";
+		};
+		149EB52317A8BD2C008FBE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149EB52417A8BD2C008FBE5C /* InstaTestTests-Info.plist */,
+				149EB52517A8BD2C008FBE5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149EB4F117A8BD2B008FBE5C /* InstaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EB52D17A8BD2C008FBE5C /* Build configuration list for PBXNativeTarget "InstaTest" */;
+			buildPhases = (
+				282BC6BB4E5840C0917606F0 /* Check Pods Manifest.lock */,
+				149EB4EE17A8BD2B008FBE5C /* Sources */,
+				149EB4EF17A8BD2B008FBE5C /* Frameworks */,
+				149EB4F017A8BD2B008FBE5C /* Resources */,
+				FB6D1CED3A7C422697A0B245 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaTest;
+			productName = InstaTest;
+			productReference = 149EB4F217A8BD2B008FBE5C /* InstaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		149EB51A17A8BD2C008FBE5C /* InstaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EB53017A8BD2C008FBE5C /* Build configuration list for PBXNativeTarget "InstaTestTests" */;
+			buildPhases = (
+				EC8AAE2E3C9A410FB6F6E94F /* Check Pods Manifest.lock */,
+				149EB51617A8BD2C008FBE5C /* Sources */,
+				149EB51717A8BD2C008FBE5C /* Frameworks */,
+				149EB51817A8BD2C008FBE5C /* Resources */,
+				149EB51917A8BD2C008FBE5C /* ShellScript */,
+				59BEC1995C7A41B6940507A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149EB52117A8BD2C008FBE5C /* PBXTargetDependency */,
+			);
+			name = InstaTestTests;
+			productName = InstaTestTests;
+			productReference = 149EB51B17A8BD2C008FBE5C /* InstaTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149EB4EA17A8BD2B008FBE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sean Dougherty";
+			};
+			buildConfigurationList = 149EB4ED17A8BD2B008FBE5C /* Build configuration list for PBXProject "InstaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 149EB4E917A8BD2B008FBE5C;
+			productRefGroup = 149EB4F317A8BD2B008FBE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149EB4F117A8BD2B008FBE5C /* InstaTest */,
+				149EB51A17A8BD2C008FBE5C /* InstaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149EB4F017A8BD2B008FBE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EB50017A8BD2B008FBE5C /* InfoPlist.strings in Resources */,
+				149EB50817A8BD2B008FBE5C /* Default.png in Resources */,
+				149EB50A17A8BD2B008FBE5C /* Default@2x.png in Resources */,
+				149EB50C17A8BD2B008FBE5C /* Default-568h@2x.png in Resources */,
+				149EB50F17A8BD2B008FBE5C /* iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EB51817A8BD2C008FBE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EB52717A8BD2C008FBE5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149EB51917A8BD2C008FBE5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		282BC6BB4E5840C0917606F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59BEC1995C7A41B6940507A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-InstaTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8AAE2E3C9A410FB6F6E94F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6D1CED3A7C422697A0B245 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149EB4EE17A8BD2B008FBE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EB50217A8BD2B008FBE5C /* main.m in Sources */,
+				149EB50617A8BD2B008FBE5C /* InstaAppDelegate.m in Sources */,
+				149EB51217A8BD2B008FBE5C /* InstaTableViewController.m in Sources */,
+				149EB51517A8BD2B008FBE5C /* InstaDetailViewController.m in Sources */,
+				148897D817A8C34D00A6112B /* Instagram.m in Sources */,
+				148897DB17A8C68D00A6112B /* InstagramCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EB51617A8BD2C008FBE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EB52A17A8BD2C008FBE5C /* InstaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		149EB52117A8BD2C008FBE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149EB4F117A8BD2B008FBE5C /* InstaTest */;
+			targetProxy = 149EB52017A8BD2C008FBE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		149EB4FE17A8BD2B008FBE5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149EB4FF17A8BD2B008FBE5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149EB50E17A8BD2B008FBE5C /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		149EB52517A8BD2C008FBE5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149EB52617A8BD2C008FBE5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149EB52B17A8BD2C008FBE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		149EB52C17A8BD2C008FBE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		149EB52E17A8BD2C008FBE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9C20F1472B496889BC9D19 /* Pods/Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTest/InstaTest-Prefix.pch";
+				INFOPLIST_FILE = "InstaTest/InstaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		149EB52F17A8BD2C008FBE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9C20F1472B496889BC9D19 /* Pods/Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTest/InstaTest-Prefix.pch";
+				INFOPLIST_FILE = "InstaTest/InstaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		149EB53117A8BD2C008FBE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554F9A0D7A644E0B8C0CA46A /* Pods/Pods-InstaTestTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaTest.app/InstaTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTest/InstaTest-Prefix.pch";
+				INFOPLIST_FILE = "InstaTestTests/InstaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		149EB53217A8BD2C008FBE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554F9A0D7A644E0B8C0CA46A /* Pods/Pods-InstaTestTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaTest.app/InstaTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTest/InstaTest-Prefix.pch";
+				INFOPLIST_FILE = "InstaTestTests/InstaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149EB4ED17A8BD2B008FBE5C /* Build configuration list for PBXProject "InstaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EB52B17A8BD2C008FBE5C /* Debug */,
+				149EB52C17A8BD2C008FBE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EB52D17A8BD2C008FBE5C /* Build configuration list for PBXNativeTarget "InstaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EB52E17A8BD2C008FBE5C /* Debug */,
+				149EB52F17A8BD2C008FBE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EB53017A8BD2C008FBE5C /* Build configuration list for PBXNativeTarget "InstaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EB53117A8BD2C008FBE5C /* Debug */,
+				149EB53217A8BD2C008FBE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149EB4EA17A8BD2B008FBE5C /* Project object */;
+}

@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (1.3.1)
+  - Kiwi (2.2)
+  - libwebp (0.3.0-rc7):
+    - libwebp/dec
+    - libwebp/dsp
+    - libwebp/utils
+    - libwebp/webp
+  - libwebp/dec (0.3.0-rc7)
+  - libwebp/dsp (0.3.0-rc7)
+  - libwebp/utils (0.3.0-rc7)
+  - libwebp/webp (0.3.0-rc7)
+  - OHHTTPStubs (1.1.2)
+  - RestKit (0.20.3):
+    - RestKit/Core
+  - RestKit/Core (0.20.3):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.20.3)
+  - RestKit/Network (0.20.3):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.20.3)
+  - RestKit/Support (0.20.3):
+    - TransitionKit (= 1.1.1)
+  - RestKit/Testing (0.20.3)
+  - RKKiwiMatchers (0.20.3):
+    - Kiwi (>= 2.0.0)
+  - SDWebImage (3.3):
+    - libwebp
+    - SDWebImage/MapKit
+  - SDWebImage/MapKit (3.3):
+    - libwebp
+  - SOCKit (1.1)
+  - SVProgressHUD (0.9)
+  - TransitionKit (1.1.1)
+
+DEPENDENCIES:
+  - Kiwi (~> 2.2.0)
+  - OHHTTPStubs (~> 1.1.1)
+  - RestKit (~> 0.20.3)
+  - RestKit/Testing (~> 0.20.3)
+  - RKKiwiMatchers (from `https://github.com/RestKit/RKKiwiMatchers.git`, commit `c717bd43b1560eda715df7ada6ec125e38fd5531`)
+  - SDWebImage (~> 3.2)
+  - SVProgressHUD (~> 0.9)
+
+EXTERNAL SOURCES:
+  RKKiwiMatchers:
+    :commit: c717bd43b1560eda715df7ada6ec125e38fd5531
+    :git: https://github.com/RestKit/RKKiwiMatchers.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  Kiwi: db174bba4ee8068b15d7122f1b22fb64b7c1d378
+  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
+  OHHTTPStubs: a840cb0fe0c2a4271018be540782cc97139dff53
+  RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83
+  RKKiwiMatchers: 4299382ab15dbbbb24816d57f11c9d4a0738f3c1
+  SDWebImage: 79a8bac9ccf85b269100b294f7b43684dab8bf8a
+  SOCKit: 2f3bc4d07910de12dcc202815e07db68a3802581
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  TransitionKit: d0e3344aac92991395d4c2e72d9c5a8ceeb12910
+
+COCOAPODS: 0.22.1
