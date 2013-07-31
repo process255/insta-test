@@ -1,6 +1,6 @@
 //
 //  InstaDetailViewController.h
-//  InstaTest
+//  UIViewController displaying a single Instagram photo.
 //
 //  Created by Sean on 7/30/13.
 //  Copyright (c) 2013 Sean Dougherty. All rights reserved.

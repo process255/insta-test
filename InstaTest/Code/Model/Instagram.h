@@ -8,12 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@class RKObjectMapping;
+
 @interface Instagram : NSObject
 
 @property (nonatomic, copy) NSString *instagramID;
 @property (nonatomic, copy) NSString *thumbPath;
 @property (nonatomic, copy) NSString *regularPath;
 @property (nonatomic, copy) NSString *caption;
-@property (nonatomic, strong) NSDate *createdTime;
+@property (nonatomic, copy) NSString *fullName;
+@property (nonatomic, assign) NSInteger likeCount;
+
+@property (nonatomic, copy) NSString *prettyTitle;
+
++ (RKObjectMapping*)mapping;
 
 @end

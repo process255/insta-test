@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		148897D817A8C34D00A6112B /* Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 148897D717A8C34D00A6112B /* Instagram.m */; };
-		148897DB17A8C68D00A6112B /* InstagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 148897DA17A8C68D00A6112B /* InstagramCell.m */; };
+		14052DE017A997D900808934 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 14052DDF17A997D900808934 /* data.json */; };
+		14052DE417A998F900808934 /* InstaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 14052DE317A998F900808934 /* InstaService.m */; };
+		14052DE617A9A0FF00808934 /* InstaServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 14052DE517A9A0FF00808934 /* InstaServiceSpec.m */; };
+		14052DE817A9AFFA00808934 /* InstaDetailViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 14052DE717A9AFFA00808934 /* InstaDetailViewControllerSpec.m */; };
+		14052DEA17A9B5EB00808934 /* InstagramSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 14052DE917A9B5EB00808934 /* InstagramSpec.m */; };
+		14052DEC17A9B7E600808934 /* instagram.json in Resources */ = {isa = PBXBuildFile; fileRef = 14052DEB17A9B7E600808934 /* instagram.json */; };
 		148897EE17A8CD4000A6112B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148897ED17A8CD4000A6112B /* SystemConfiguration.framework */; };
 		148897F017A8CD9700A6112B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148897EF17A8CD9700A6112B /* MobileCoreServices.framework */; };
 		149EB4F617A8BD2B008FBE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F517A8BD2B008FBE5C /* UIKit.framework */; };
@@ -21,13 +25,16 @@
 		149EB50A17A8BD2B008FBE5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50917A8BD2B008FBE5C /* Default@2x.png */; };
 		149EB50C17A8BD2B008FBE5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50B17A8BD2B008FBE5C /* Default-568h@2x.png */; };
 		149EB50F17A8BD2B008FBE5C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */; };
-		149EB51217A8BD2B008FBE5C /* InstaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */; };
-		149EB51517A8BD2B008FBE5C /* InstaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */; };
 		149EB51D17A8BD2C008FBE5C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */; };
 		149EB51E17A8BD2C008FBE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F517A8BD2B008FBE5C /* UIKit.framework */; };
 		149EB51F17A8BD2C008FBE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EB4F717A8BD2B008FBE5C /* Foundation.framework */; };
-		149EB52717A8BD2C008FBE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149EB52517A8BD2C008FBE5C /* InfoPlist.strings */; };
-		149EB52A17A8BD2C008FBE5C /* InstaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 149EB52917A8BD2C008FBE5C /* InstaTestTests.m */; };
+		14EFB0EF17A97F4000F46449 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EFB0EE17A97F3F00F46449 /* Icon.png */; };
+		14EFB0F117A97F4600F46449 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EFB0F017A97F4600F46449 /* Icon@2x.png */; };
+		14EFB0F717A9816800F46449 /* Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFB0F617A9816800F46449 /* Instagram.m */; };
+		14EFB0FC17A9817A00F46449 /* InstaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFB0F917A9817A00F46449 /* InstaDetailViewController.m */; };
+		14EFB0FD17A9817A00F46449 /* InstaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFB0FB17A9817A00F46449 /* InstaTableViewController.m */; };
+		14EFB0FF17A982F800F46449 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFB0FE17A982F800F46449 /* CoreData.framework */; };
+		14EFB10817A989A200F46449 /* InstaTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFB10717A989A200F46449 /* InstaTableViewControllerSpec.m */; };
 		59D7D5A945EB4DDAA3067DC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CC57ACB07E45B8ADC6F8D8 /* libPods.a */; };
 		E3AF0745D10A4508B557F8E6 /* libPods-InstaTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */; };
 /* End PBXBuildFile section */
@@ -44,10 +51,13 @@
 
 /* Begin PBXFileReference section */
 		08CC57ACB07E45B8ADC6F8D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		148897D617A8C34D00A6112B /* Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instagram.h; sourceTree = "<group>"; };
-		148897D717A8C34D00A6112B /* Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instagram.m; sourceTree = "<group>"; };
-		148897D917A8C68D00A6112B /* InstagramCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCell.h; sourceTree = "<group>"; };
-		148897DA17A8C68D00A6112B /* InstagramCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCell.m; sourceTree = "<group>"; };
+		14052DDF17A997D900808934 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Fixtures/data.json; sourceTree = "<group>"; };
+		14052DE217A998F900808934 /* InstaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstaService.h; path = Code/Service/InstaService.h; sourceTree = "<group>"; };
+		14052DE317A998F900808934 /* InstaService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstaService.m; path = Code/Service/InstaService.m; sourceTree = "<group>"; };
+		14052DE517A9A0FF00808934 /* InstaServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaServiceSpec.m; sourceTree = "<group>"; };
+		14052DE717A9AFFA00808934 /* InstaDetailViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaDetailViewControllerSpec.m; sourceTree = "<group>"; };
+		14052DE917A9B5EB00808934 /* InstagramSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramSpec.m; sourceTree = "<group>"; };
+		14052DEB17A9B7E600808934 /* instagram.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = instagram.json; path = Fixtures/instagram.json; sourceTree = "<group>"; };
 		148897ED17A8CD4000A6112B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		148897EF17A8CD9700A6112B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		149EB4F217A8BD2B008FBE5C /* InstaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,18 +74,22 @@
 		149EB50917A8BD2B008FBE5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		149EB50B17A8BD2B008FBE5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		149EB50E17A8BD2B008FBE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
-		149EB51017A8BD2B008FBE5C /* InstaTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaTableViewController.h; sourceTree = "<group>"; };
-		149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaTableViewController.m; sourceTree = "<group>"; };
-		149EB51317A8BD2B008FBE5C /* InstaDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaDetailViewController.h; sourceTree = "<group>"; };
-		149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaDetailViewController.m; sourceTree = "<group>"; };
 		149EB51B17A8BD2C008FBE5C /* InstaTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		149EB52417A8BD2C008FBE5C /* InstaTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaTestTests-Info.plist"; sourceTree = "<group>"; };
-		149EB52617A8BD2C008FBE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		149EB52817A8BD2C008FBE5C /* InstaTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaTestTests.h; sourceTree = "<group>"; };
-		149EB52917A8BD2C008FBE5C /* InstaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaTestTests.m; sourceTree = "<group>"; };
+		14EFB0EE17A97F3F00F46449 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		14EFB0F017A97F4600F46449 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		14EFB0F517A9816800F46449 /* Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Instagram.h; path = Code/Model/Instagram.h; sourceTree = "<group>"; };
+		14EFB0F617A9816800F46449 /* Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Instagram.m; path = Code/Model/Instagram.m; sourceTree = "<group>"; };
+		14EFB0F817A9817A00F46449 /* InstaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstaDetailViewController.h; path = Code/Controller/InstaDetailViewController.h; sourceTree = "<group>"; };
+		14EFB0F917A9817A00F46449 /* InstaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstaDetailViewController.m; path = Code/Controller/InstaDetailViewController.m; sourceTree = "<group>"; };
+		14EFB0FA17A9817A00F46449 /* InstaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstaTableViewController.h; path = Code/Controller/InstaTableViewController.h; sourceTree = "<group>"; };
+		14EFB0FB17A9817A00F46449 /* InstaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstaTableViewController.m; path = Code/Controller/InstaTableViewController.m; sourceTree = "<group>"; };
+		14EFB0FE17A982F800F46449 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14EFB10517A9899A00F46449 /* InstaTestTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InstaTestTests-Info.plist"; sourceTree = "<group>"; };
+		14EFB10717A989A200F46449 /* InstaTableViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaTableViewControllerSpec.m; sourceTree = "<group>"; };
 		554F9A0D7A644E0B8C0CA46A /* Pods/Pods-InstaTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-InstaTestTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4865CC2D60C4933AB14D1B2 /* libPods-InstaTestSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaTestSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9C20F1472B496889BC9D19 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -97,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EFB0FF17A982F800F46449 /* CoreData.framework in Frameworks */,
 				149EB51D17A8BD2C008FBE5C /* SenTestingKit.framework in Frameworks */,
 				149EB51E17A8BD2C008FBE5C /* UIKit.framework in Frameworks */,
 				149EB51F17A8BD2C008FBE5C /* Foundation.framework in Frameworks */,
@@ -107,11 +122,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14052DDE17A997BB00808934 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				14052DDF17A997D900808934 /* data.json */,
+				14052DEB17A9B7E600808934 /* instagram.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		14052DE117A998E300808934 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				14052DE217A998F900808934 /* InstaService.h */,
+				14052DE317A998F900808934 /* InstaService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		149EB4E917A8BD2B008FBE5C = {
 			isa = PBXGroup;
 			children = (
-				148897EF17A8CD9700A6112B /* MobileCoreServices.framework */,
-				148897ED17A8CD4000A6112B /* SystemConfiguration.framework */,
 				149EB4FB17A8BD2B008FBE5C /* InstaTest */,
 				149EB52217A8BD2C008FBE5C /* InstaTestTests */,
 				149EB4F417A8BD2B008FBE5C /* Frameworks */,
@@ -133,12 +164,16 @@
 		149EB4F417A8BD2B008FBE5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14EFB0FE17A982F800F46449 /* CoreData.framework */,
+				148897EF17A8CD9700A6112B /* MobileCoreServices.framework */,
+				148897ED17A8CD4000A6112B /* SystemConfiguration.framework */,
 				149EB4F517A8BD2B008FBE5C /* UIKit.framework */,
 				149EB4F717A8BD2B008FBE5C /* Foundation.framework */,
 				149EB4F917A8BD2B008FBE5C /* CoreGraphics.framework */,
 				149EB51C17A8BD2C008FBE5C /* SenTestingKit.framework */,
 				08CC57ACB07E45B8ADC6F8D8 /* libPods.a */,
 				BF547C29544945D08D72B0D0 /* libPods-InstaTestTests.a */,
+				F4865CC2D60C4933AB14D1B2 /* libPods-InstaTestSpecs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,18 +181,13 @@
 		149EB4FB17A8BD2B008FBE5C /* InstaTest */ = {
 			isa = PBXGroup;
 			children = (
+				14052DE117A998E300808934 /* Service */,
+				14EFB0F217A980FC00F46449 /* Model */,
+				14EFB0F317A9810C00F46449 /* View */,
+				14EFB0F417A9811800F46449 /* Controller */,
 				149EB50417A8BD2B008FBE5C /* InstaAppDelegate.h */,
 				149EB50517A8BD2B008FBE5C /* InstaAppDelegate.m */,
-				149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */,
-				149EB51017A8BD2B008FBE5C /* InstaTableViewController.h */,
-				149EB51117A8BD2B008FBE5C /* InstaTableViewController.m */,
-				149EB51317A8BD2B008FBE5C /* InstaDetailViewController.h */,
-				149EB51417A8BD2B008FBE5C /* InstaDetailViewController.m */,
 				149EB4FC17A8BD2B008FBE5C /* Supporting Files */,
-				148897D617A8C34D00A6112B /* Instagram.h */,
-				148897D717A8C34D00A6112B /* Instagram.m */,
-				148897D917A8C68D00A6112B /* InstagramCell.h */,
-				148897DA17A8C68D00A6112B /* InstagramCell.m */,
 			);
 			path = InstaTest;
 			sourceTree = "<group>";
@@ -165,6 +195,8 @@
 		149EB4FC17A8BD2B008FBE5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14EFB0F017A97F4600F46449 /* Icon@2x.png */,
+				14EFB0EE17A97F3F00F46449 /* Icon.png */,
 				149EB4FD17A8BD2B008FBE5C /* InstaTest-Info.plist */,
 				149EB4FE17A8BD2B008FBE5C /* InfoPlist.strings */,
 				149EB50117A8BD2B008FBE5C /* main.m */,
@@ -179,8 +211,11 @@
 		149EB52217A8BD2C008FBE5C /* InstaTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				149EB52817A8BD2C008FBE5C /* InstaTestTests.h */,
-				149EB52917A8BD2C008FBE5C /* InstaTestTests.m */,
+				14052DE917A9B5EB00808934 /* InstagramSpec.m */,
+				14052DE517A9A0FF00808934 /* InstaServiceSpec.m */,
+				14EFB10717A989A200F46449 /* InstaTableViewControllerSpec.m */,
+				14052DE717A9AFFA00808934 /* InstaDetailViewControllerSpec.m */,
+				14052DDE17A997BB00808934 /* Fixtures */,
 				149EB52317A8BD2C008FBE5C /* Supporting Files */,
 			);
 			path = InstaTestTests;
@@ -189,10 +224,37 @@
 		149EB52317A8BD2C008FBE5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				149EB52417A8BD2C008FBE5C /* InstaTestTests-Info.plist */,
-				149EB52517A8BD2C008FBE5C /* InfoPlist.strings */,
+				14EFB10517A9899A00F46449 /* InstaTestTests-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14EFB0F217A980FC00F46449 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14EFB0F517A9816800F46449 /* Instagram.h */,
+				14EFB0F617A9816800F46449 /* Instagram.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		14EFB0F317A9810C00F46449 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				149EB50D17A8BD2B008FBE5C /* iPhone.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		14EFB0F417A9811800F46449 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14EFB0F817A9817A00F46449 /* InstaDetailViewController.h */,
+				14EFB0F917A9817A00F46449 /* InstaDetailViewController.m */,
+				14EFB0FA17A9817A00F46449 /* InstaTableViewController.h */,
+				14EFB0FB17A9817A00F46449 /* InstaTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +338,8 @@
 				149EB50A17A8BD2B008FBE5C /* Default@2x.png in Resources */,
 				149EB50C17A8BD2B008FBE5C /* Default-568h@2x.png in Resources */,
 				149EB50F17A8BD2B008FBE5C /* iPhone.storyboard in Resources */,
+				14EFB0EF17A97F4000F46449 /* Icon.png in Resources */,
+				14EFB0F117A97F4600F46449 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149EB52717A8BD2C008FBE5C /* InfoPlist.strings in Resources */,
+				14052DE017A997D900808934 /* data.json in Resources */,
+				14052DEC17A9B7E600808934 /* instagram.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +437,10 @@
 			files = (
 				149EB50217A8BD2B008FBE5C /* main.m in Sources */,
 				149EB50617A8BD2B008FBE5C /* InstaAppDelegate.m in Sources */,
-				149EB51217A8BD2B008FBE5C /* InstaTableViewController.m in Sources */,
-				149EB51517A8BD2B008FBE5C /* InstaDetailViewController.m in Sources */,
-				148897D817A8C34D00A6112B /* Instagram.m in Sources */,
-				148897DB17A8C68D00A6112B /* InstagramCell.m in Sources */,
+				14EFB0F717A9816800F46449 /* Instagram.m in Sources */,
+				14EFB0FC17A9817A00F46449 /* InstaDetailViewController.m in Sources */,
+				14EFB0FD17A9817A00F46449 /* InstaTableViewController.m in Sources */,
+				14052DE417A998F900808934 /* InstaService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +448,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149EB52A17A8BD2C008FBE5C /* InstaTestTests.m in Sources */,
+				14EFB10817A989A200F46449 /* InstaTableViewControllerSpec.m in Sources */,
+				14052DE617A9A0FF00808934 /* InstaServiceSpec.m in Sources */,
+				14052DE817A9AFFA00808934 /* InstaDetailViewControllerSpec.m in Sources */,
+				14052DEA17A9B5EB00808934 /* InstagramSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +480,6 @@
 				149EB50E17A8BD2B008FBE5C /* en */,
 			);
 			name = iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		149EB52517A8BD2C008FBE5C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				149EB52617A8BD2C008FBE5C /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
