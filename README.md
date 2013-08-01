@@ -16,3 +16,8 @@ Thanks goes out to the following open source projects.
 * CocoaPods by Eloy Durán - http://cocoapods.org/
 
 
+## License
+
+Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
+
+Copyright 2013 [Sean Dougherty](twitter.com/sdougherty)
