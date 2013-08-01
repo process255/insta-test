@@ -13,6 +13,6 @@ Thanks goes out to the following open source projects.
 * OHHTTPStubs by Olivier Halligon - https://github.com/AliSoftware/OHHTTPStubs
 * SDWebImage by Olivier Poitrey - https://github.com/rs/SDWebImage
 * SVProgressHUD by Sam Vermette - https://github.com/samvermette/SVProgressHUD
-
+* CocoaPods by Eloy Durán - http://cocoapods.org/
 
 
