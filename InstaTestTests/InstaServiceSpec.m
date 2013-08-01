@@ -47,25 +47,33 @@ describe(@"InstaService", ^{
         });
         
         afterAll(^{
+            
             service = nil;
             response = nil;
             [OHHTTPStubs removeAllRequestHandlers];
             [RKTestFactory tearDown];
+            
         });
         
         beforeEach(^{
+            
             [service loadPopularWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                 instagram = mappingResult.array[0];
                 result = mappingResult;
             } failure:nil];
+            
         });
         
         it(@"should load 16 photos", ^{
+            
             [[expectFutureValue([result array]) shouldEventually] haveCountOf:16];
+            
 		});
         
         it(@"should have a collection with the first photo belonging to GMY Studio", ^{
+            
 			[[expectFutureValue(instagram.fullName) shouldEventually] equal:@"GMY Studio"];
+            
 		});
         
     });

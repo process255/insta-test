@@ -25,42 +25,57 @@ SPEC_BEGIN(InstaTableViewControllerSpec)
 
 
 describe(@"InstaTableViewController Storyboard", ^{
+    
     __block UIStoryboard* storyboard;
 	__block InstaTableViewController* vc;
 	
     beforeAll(^{
+        
         storyboard = [UIStoryboard storyboardWithName:@"iPhone" bundle:nil];
         vc = [storyboard instantiateViewControllerWithIdentifier:@"InstaTableViewController"];
         [vc loadView];
+        
     });
     
     afterAll(^{
+        
         storyboard = nil;
         vc = nil;
+        
     });
     
     context(@"should properly bind IBOutlets, IBActions", ^{
         
         it(@"the controller should exist", ^{
+            
             [vc shouldNotBeNil];
+            
         });
         
         it(@"the view should exist", ^{
+            
             [vc.view shouldNotBeNil];
+            
         });
         
         it(@"the tableView should exist", ^{
+            
             [vc.tableView shouldNotBeNil];
+            
         });
         
         it(@"the table view's dataSource should be this view controller", ^{
+            
             [(id)vc.tableView.dataSource shouldNotBeNil];
             [[(id)vc.tableView.dataSource should] equal:vc];
+            
         });
 
         it(@"the table view's delegate should be this view controller", ^{
+            
             [(id)vc.tableView.delegate shouldNotBeNil];
             [[(id)vc.tableView.delegate should] equal:vc];
+            
         });
         
     });
@@ -97,6 +112,7 @@ describe(@"InstaTableViewController Storyboard", ^{
             // stub SVProgressHUD since we don't want it to actually execute
             [SVProgressHUD stub:@selector(dismiss)];
             [vc.tableView stub:@selector(reloadData)];
+            
         });
         
         it(@"should set the results to be instagrams on the view controller", ^{
@@ -125,21 +141,25 @@ describe(@"InstaTableViewController Storyboard", ^{
     context(@"-tableView:cellForRowAtIndexPath:", ^{
         
         beforeEach(^{
+            
             Instagram *instagram = [[Instagram alloc] init];
             instagram.thumbPath = @"thumb path";
             instagram.prettyTitle = @"pretty title";
             
             [vc stub:@selector(instagrams) andReturn:@[instagram]];
+            
         });
         
         it(@"should return a valid cell", ^{
             
             UITableViewCell *cell = [vc tableView:vc.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
             [cell shouldNotBeNil];
+            
         });
         
     });
 });
+
 
 
 SPEC_END

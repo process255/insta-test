@@ -58,7 +58,10 @@ describe(@"Instagram", ^{
 		});
 		
 		// Attributes
-		specify(^{ [[mappingTest should] mapKeyPath:@"id" toKeyPath:@"instagramID" withValue:@"512214900429776080_5619568"]; });
+		specify(^{ [[mappingTest should] mapKeyPath:@"id"
+                                          toKeyPath:@"instagramID"
+                                          withValue:@"512214900429776080_5619568"];
+        });
 		specify(^{ [[mappingTest should] mapKeyPath:@"user.full_name" toKeyPath:@"fullName" withValue:@"GMY Studio"]; });
 		specify(^{ [[mappingTest should] mapKeyPath:@"likes.count" toKeyPath:@"likeCount" withValue:@9081]; });
         specify(^{ [[mappingTest should] mapKeyPath:@"caption.text" toKeyPath:@"caption" withValue:@"Last weekend"]; });
@@ -81,7 +84,7 @@ describe(@"Instagram", ^{
         
         it(@"should return 'Sean Dougherty: 1,000,000 likes", ^{
             
-            [[[instagram prettyTitle] should] equal:@"Sean Dougherty: 1,000,000 likes"];
+            [[instagram.prettyTitle should] equal:@"Sean Dougherty: 1,000,000 likes"];
             
         });
     });

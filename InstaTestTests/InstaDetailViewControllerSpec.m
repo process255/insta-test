@@ -26,28 +26,38 @@ describe(@"InstaDetailViewController Storyboard", ^{
 	__block InstaDetailViewController* vc;
 	
     beforeAll(^{
+        
         storyboard = [UIStoryboard storyboardWithName:@"iPhone" bundle:nil];
         vc = [storyboard instantiateViewControllerWithIdentifier:@"InstaDetailViewController"];
         [vc loadView];
+        
     });
     
     afterAll(^{
+        
         storyboard = nil;
         vc = nil;
+        
     });
     
     context(@"should properly bind IBOutlets, IBActions", ^{
         
         it(@"the controller should exist", ^{
+            
             [vc shouldNotBeNil];
+            
         });
         
         it(@"the view should exist", ^{
+            
             [vc.view shouldNotBeNil];
+            
         });
         
         it(@"the pic should exist", ^{
+            
             [vc.pic shouldNotBeNil];
+            
         });
         
     });
@@ -55,7 +65,9 @@ describe(@"InstaDetailViewController Storyboard", ^{
     context(@"setInstagram:", ^{
         
         beforeEach(^{
+            
             [vc stub:@selector(configureView)];
+            
         });
         
         it(@"should call configureView after storing the new Instagram Object", ^{
@@ -74,6 +86,7 @@ describe(@"InstaDetailViewController Storyboard", ^{
             [vc setInstagram:instagram];
             [[vc shouldNot] receive:@selector(configureView)];
             [vc setInstagram:instagram];
+            
         });
         
     });
@@ -81,6 +94,7 @@ describe(@"InstaDetailViewController Storyboard", ^{
     context(@"configureView", ^{
         
         beforeEach(^{
+            
             [SVProgressHUD stub:@selector(show)];
             Instagram *instagram = [[Instagram alloc] init];
             instagram.thumbPath = @"thumb path";
@@ -88,6 +102,7 @@ describe(@"InstaDetailViewController Storyboard", ^{
             instagram.caption = @"My Caption";
             
             [vc stub:@selector(instagram) andReturn:instagram];
+            
         });
         
         it(@"should set the title to the instagram caption", ^{
@@ -98,8 +113,10 @@ describe(@"InstaDetailViewController Storyboard", ^{
         });
         
         it(@"should set set the image on the pic", ^{
+            
             [[vc.pic should] receive:@selector(setImageWithURL:placeholderImage:completed:)];
             [vc configureView];
+            
         });
         
     });
