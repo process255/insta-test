@@ -1,6 +1,8 @@
 insta-test
 ==========
 
+[Download the presentation here](https://github.com/process255/insta-test/blob/master/iOS-TDD-with-BDD.pdf?raw=true)
+
 This project is a sample iOS application used to demonstrate unit testing with Kiwi (https://github.com/allending/Kiwi).
 
 It loads the popular feed from Instagram, displays it in a table with thumbnails and a detail view. Used as a demo for my talk 'iOS BDD with Kiwi' at Develop Denver 2013 (8/1/2013).
