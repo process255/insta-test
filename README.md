@@ -3,7 +3,7 @@ insta-test
 
 This project is a sample iOS application used to demonstrate unit testing with Kiwi (https://github.com/allending/Kiwi).
 
-It loads the popular feed from Instagram, displays it in a able with thumbnails and a detail view. Used as a demo for my talk 'iOS BDD with Kiwi' at Develop Denver 2013 (8/1/2013).
+It loads the popular feed from Instagram, displays it in a table with thumbnails and a detail view. Used as a demo for my talk 'iOS BDD with Kiwi' at Develop Denver 2013 (8/1/2013).
 
 Thanks goes out to the following open source projects.
 

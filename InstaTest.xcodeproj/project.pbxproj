@@ -249,10 +249,10 @@
 		14EFB0F417A9811800F46449 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				14EFB0F817A9817A00F46449 /* InstaDetailViewController.h */,
-				14EFB0F917A9817A00F46449 /* InstaDetailViewController.m */,
 				14EFB0FA17A9817A00F46449 /* InstaTableViewController.h */,
 				14EFB0FB17A9817A00F46449 /* InstaTableViewController.m */,
+				14EFB0F817A9817A00F46449 /* InstaDetailViewController.h */,
+				14EFB0F917A9817A00F46449 /* InstaDetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";

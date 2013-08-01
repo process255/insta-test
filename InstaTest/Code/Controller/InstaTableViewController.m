@@ -15,9 +15,6 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
-
-
-
 @interface InstaTableViewController ()
 
 // storage collection for loaded Instagram objects
@@ -37,7 +34,7 @@
 	[self loadPopular];
 }
 
-#pragma mark - Table View
+#pragma mark - Table View Delegate/Datasource Methods
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
@@ -68,7 +65,6 @@
 	
     return cell;
 }
-
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

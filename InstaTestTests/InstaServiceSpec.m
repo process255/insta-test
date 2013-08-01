@@ -7,17 +7,17 @@
 //
 
 #import "Kiwi.h"
-#import <RestKit/RestKit.h>
-#import <RestKit/Testing.h>
-#import "RKMappingTestMatcher.h"
-#import "InstaTableViewController.h"
-#import "OHHTTPStubs.h"
+
 #import "InstaService.h"
 #import "Instagram.h"
 
+#import <RestKit/RestKit.h>
+#import <RestKit/Testing.h>
+#import "OHHTTPStubs.h"
+
+
 SPEC_BEGIN(InstaServiceSpec)
 
-registerMatchers(@"RK");
 
 describe(@"InstaService", ^{
        

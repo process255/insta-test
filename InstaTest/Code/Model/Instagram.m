@@ -14,7 +14,7 @@
 //
 // returns the likeCount as a string formatted with commas
 //
-// In production you should not instanciate a new NSNumberFormatter
+// In production you should not instantiate a new NSNumberFormatter
 // for each Instram object. Use one NSNumberFormatter object in
 // production code!
 //

@@ -47,6 +47,7 @@
                             
                             // hide the loader
                             [SVProgressHUD dismiss];
+                            
                         }];
 	}
 }
