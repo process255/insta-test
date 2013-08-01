@@ -21,11 +21,12 @@
                        failure:(void (^)(RKObjectRequestOperation *operation, NSError *error))failure
 {
     // RestKit response descriptors are use to map a response to a mapping used for creating custom model objects
-	RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:[Instagram mapping]
-																							method:RKRequestMethodAny
-																					   pathPattern:nil
-																						   keyPath:@"data"
-																					   statusCodes:nil];
+	RKResponseDescriptor *responseDescriptor =
+    [RKResponseDescriptor responseDescriptorWithMapping:[Instagram mapping]
+                                                 method:RKRequestMethodAny
+                                            pathPattern:nil
+                                                keyPath:@"data"
+                                            statusCodes:nil];
 	
     // create a url and request object
 	NSURL *url = [NSURL URLWithString:kInstagramPopularURL];
@@ -34,12 +35,13 @@
     // RestKit's network operations are sub classes NSOperation which is used by AFNetworking under the hood
     // RKObjectRequestOperation is used for non-core data RestKit requests, we create one with the request and
     // response descriptor created above.
-	RKObjectRequestOperation *operation = [[RKObjectRequestOperation alloc] initWithRequest:request
-																		responseDescriptors:@[responseDescriptor]];
+	RKObjectRequestOperation *operation =
+    [[RKObjectRequestOperation alloc] initWithRequest:request
+                                  responseDescriptors:@[responseDescriptor]];
 	
-    // set the completion block for a successful response. In production you'll want to provide failure handling.
-    // It is much easier to test blocks if you have them call single methods rather than executing lots of code in
-    // the block directly.
+    // set the completion block for a successful response. In production you'll want to provide
+    // failure handling. It is much easier to test blocks if you have them call single methods
+    // rather than executing lots of code in the block directly.
 	[operation setCompletionBlockWithSuccess:success failure:failure];
 	
     // start the operation so that it executes
