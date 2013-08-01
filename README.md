@@ -20,4 +20,4 @@ Thanks goes out to the following open source projects.
 
 Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
 
-Copyright 2013 [Sean Dougherty](twitter.com/sdougherty)
+Copyright 2013 [Sean Dougherty](https://twitter.com/sdougherty)
